@@ -108,18 +108,17 @@ export default function Navbar() {
         <SubMenu />
 
         <a
-          href="https://drive.google.com/file/d/1TsyHRLPl7TvTEl8sbJYZFU26WYLMlxgr/view"
-          target="_blank"
-          rel="noopener noreferrer"
+          href=""
           className="mt-auto text-sm border-[#e5e7eb] w-full flex items-center gap-1 hover:bg-gray-100 transition-all p-2 rounded-md"
         >
           <ArrowUpRightIcon className="w-5 h-5 text-black" />
-          <span>Visit Resume</span>
+          <span>Help and first steps</span>
         </a>
         <button className=" text-sm border-[#e5e7eb] w-full flex items-center gap-1 hover:bg-gray-100 transition-all p-2 rounded-md">
           <UserPlusIcon className="w-5 h-5 text-black" />
           <span>Invite teammates</span>
         </button>
+        
         <button className="text-sm border-[#e5e7eb] w-full flex items-center gap-1 bg-gray-100 p-2 rounded-md">
           <span>7 days left</span>
           <span className="px-2 py-1 bg-black rounded-md text-white ml-auto">

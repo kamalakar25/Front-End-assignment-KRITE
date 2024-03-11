@@ -16,20 +16,17 @@ const items = [
     'sub1',
     <FolderOpenIcon className="text-black w-5 h-5" />,
     [
-      getItem('Ayush Kumar', '1'),
-      getItem('ayushsingh.8d@gmail.com', '2'),
-      getItem('Frontend Developer', '3'),
-      getItem('React.js Next.js', '4'),
+      getItem('roadmap', '1'),
+      getItem('Feedback', '2'),
+      getItem('Performance', '3'),
+      getItem('Team', '4'),
     ]
   ),
   getItem('Sales', 'sub2', <FolderOpenIcon className="text-black w-5 h-5" />, [
-    getItem('Ayush Kumar', '5'),
-    getItem('ayushsingh.8d@gmail.com', '6'),
+    getItem('Sales', '5'),
   ]),
   getItem('Design', 'sub3', <FolderOpenIcon className="text-black w-5 h-5" />, [
-    getItem('Ayush Kumar', '12'),
-    getItem('ayushsingh.8d@gmail.com', '11'),
-    getItem('Tailwind CSS', '9'),
+    getItem('react', '12'),
     getItem('Node.js', '10'),
   ]),
   getItem('Office', 'sub4', <FolderOpenIcon className="text-black w-5 h-5" />),

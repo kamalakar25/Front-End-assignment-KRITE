@@ -3,41 +3,18 @@ import { Dropdown } from 'antd';
 const items = [
   {
     key: '1',
-    label: (
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1TsyHRLPl7TvTEl8sbJYZFU26WYLMlxgr/view?usp=sharing"
-      >
-        Resume Ayush Kumar
-      </a>
-    ),
+    label: "Top Brands",
   },
   {
     key: '2',
-    label: (
-      <a href="mailto:https:ayushsingh.8d@gmail.com">ayushsingh.8d@gmail.com</a>
-    ),
+    label: "Latest Brands",
 
     disabled: true,
   },
   {
     key: '3',
-    label: (
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://www.luohanacademy.com"
-      >
-        Skilled in React.js Next.js Tailwind CSS
-      </a>
-    ),
+    label: "Brands",
     disabled: true,
-  },
-  {
-    key: '4',
-    danger: true,
-    label: 'Danger',
   },
 ];
 export default function DropDown({ label, iconleft, iconright, clickable }) {
